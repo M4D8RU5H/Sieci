@@ -32,7 +32,6 @@ class App(ct.CTk):
         # create navigation frame
         self.navigation_frame = ct.CTkFrame(self, corner_radius=0)
         self.navigation_frame.grid(row=0, column=0, sticky="nsew")
-        self.navigation_frame.grid_rowconfigure(4, weight=1)
 
         self.navigation_frame_label = ct.CTkLabel(master=self.navigation_frame,
                                                              text="   Algorytmy\n   kryptograficzne",
